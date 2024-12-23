@@ -1,5 +1,7 @@
 # struct-sql-postgres
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/go-phings/struct-sql-postgres.svg)](https://pkg.go.dev/github.com/go-phings/struct-sql-postgres) [![Go Report Card](https://goreportcard.com/badge/github.com/go-phings/struct-sql-postgres)](https://goreportcard.com/report/github.com/go-phings/struct-sql-postgres)
+
 This package generates PostgreSQL SQL queries based on a struct instance. The concept is to define a struct, create a corresponding table to store its instances, and generate queries for managing the rows in that table, such as creating, updating, deleting, and selecting records.
 
 The following queries can be generated:
