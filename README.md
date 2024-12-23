@@ -61,7 +61,7 @@ To generate an SQL query based on a struct, a `StructSQL` object is used.  One p
 ````go
 
 import (
-  stsql "github.com/mikolajgs/prototyping/pkg/struct-sql-postgres"
+  stsql "github.com/go-phings/struct-sql-postgres"
 )
 
 (...)
