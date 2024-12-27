@@ -39,7 +39,7 @@ type StructSQL struct {
 
 	hasModificationFields bool
 
-	err *ErrStructSQL
+	err error
 
 	tagName string
 }
@@ -95,7 +95,7 @@ func NewStructSQL(obj interface{}, options StructSQLOptions) *StructSQL {
 }
 
 // Err returns error that occurred when reflecting struct
-func (h *StructSQL) Err() *ErrStructSQL {
+func (h *StructSQL) Err() error {
 	return h.err
 }
 
